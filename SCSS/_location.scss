@@ -1,0 +1,31 @@
+
+.sectionDlocation{
+    display: flex;
+    padding: 30px;
+    margin-top: 300px;
+    width: 100%;
+    justify-content: center;
+            }
+
+.sectionDmap{
+    display: flex;
+    width: 60%;
+    padding: 30px;
+            }
+
+.sectionDtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: inherit;
+            }
+
+.sectionDtext p{
+    display: block;
+    font-size: 50px;
+    text-align:left;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+                        }

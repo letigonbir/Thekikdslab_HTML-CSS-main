@@ -1,0 +1,135 @@
+@media(max-width:2200px) {
+    .navegadorLinks{
+    position: absolute;
+    margin-top: 300px;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 30px;
+    right: -100vw;
+    transition: right 0.1s ease;
+    transition-delay: 2s;
+    }
+.navegadorLink a { 
+    display:block;
+    padding: 20px 5px;
+    color: white;
+    background-color: $primaryColor;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: end;
+    }
+.iconoMenu{
+        display: block;
+        position: absolute;
+        color: white;
+        margin: 20px;
+        font-size: 80px;
+    }
+.iconoMenu:hover ~ .navegadorLinks{
+        right: 0vw;
+    }
+.tituloMainImage{
+        font-size: 160px;
+        padding: 10px;
+        }
+    }      
+
+@media(max-width:1700px) {
+    .tituloMainImage{
+        font-size: 130px;
+        padding: 10px;
+        }
+    .tituloHeader p{ 
+        font-size: 70px;
+        }    
+    .headerImage{ 
+        width:800px;
+        } 
+    .sectionAtext{ 
+        font-size: 60px;
+        line-height: 60px;
+        padding: 10px;
+        }
+    .fasesText{ 
+        font-size: 60px;
+        line-height: 60px;
+        padding: 10px;
+        margin: 10px;
+        }
+    .fasesTitle{ 
+        font-size: 60px;
+        line-height: 60px;
+        padding: 10px;
+        text-align: center;
+        }
+    .sectionBtitle{ 
+        font-size: 60px;
+        line-height: 60px;
+        padding: 10px;
+        }
+    }
+@media(max-width:1300px) {
+        .tituloMainImage{
+            font-size: 100px;
+            padding: 10px;
+            }
+        }
+@media(max-width:1000px) {
+    .tituloMainImage{
+        font-size: 60px;
+        padding: 10px;
+        }
+    .headerImage{ 
+        width:90%;
+        margin: auto;
+        }
+    .tituloHeader p{ 
+        font-size: 60px;
+        text-align: center;
+        line-height: 60px;
+        padding: 30px;
+        }
+    .tarjetas {
+        padding: 10px;
+    }
+    .tarjeta {
+        width: 98%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }   
+    .tarjetaText{
+        margin-top: 0px;
+    }
+    .tarjetaTitle{
+        font-size: 60px;
+    }
+    .sectionBconclusion{
+        font-size: 60px;
+    }
+    .tarjetasTitulo{
+        font-size: 60px;
+    }
+    .footer2Text1{ 
+        text-align: center;
+        }
+    .footer2Image{ 
+        display: none;
+        }
+
+@media(max-width:500px) {
+    .tituloHeader p{ 
+        font-size: 60px;
+        }
+    .tituloMainImage{
+        font-size: 160px;
+        padding: 5px;
+            }
+    }
+}

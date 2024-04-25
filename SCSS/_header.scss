@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.tituloHeader p{
+    font-size: 70px;
+    text-align:left;
+    line-height: 10px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.tituloInicio {
+    font-size: 80px;
+}
+
+
+.headerImage {
+    width: 1000px;
+    display: flex;
+    padding-top: 200px;
+    }

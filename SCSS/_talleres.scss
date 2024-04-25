@@ -1,0 +1,157 @@
+
+.taller{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    border: 10px solid $primaryColor;
+    background-color: $backgroundColor;
+    place-content: center;
+    border-radius: 50px;
+    padding: 80px;
+    margin-bottom: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 0.5fr 2fr 0.5fr 0.5fr;
+    grid-template-areas: "proyA proyA proyA proyA proyS proyD"
+                         "proyC proyC proyC proyC proyF proyF"
+                         "proyE proyE proyE proyE proyB proyB"
+                         "proyG proyH proyI proyJ proyK proyL"
+                         "proyP proyM proyQ proyN proyR proyO";
+            }
+
+.tallerIm{
+    grid-area: proyA;
+    width: 100%;
+    height:100%;
+    border-radius: 70px;
+    object-fit: cover;
+            }
+
+.tallerTitle{
+    grid-area: proyC;
+    font-size: 70px;
+    text-align: center;
+    justify-items: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-style: normal;
+    align-self: center;
+            }
+            
+.tallerTitleText2{
+    grid-area: proyD;
+    font-size: 60px;
+    color: $primaryColor;
+    text-align:right;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+    align-self: end;
+}
+
+.tallerTitleText1{
+    grid-area: proyE;
+    font-size: 60px;
+    text-align:left;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+}
+
+.tallerText2{
+    grid-area: proyF;
+    font-size: 70px;
+    text-align:right;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: light;
+    padding: 30px;
+    color: $primaryColor;
+    align-self: center;
+}
+
+.tallerIconData1{
+    grid-area: proyG; 
+    object-fit: cover;
+    justify-self: end;
+    align-self: center;
+    font-size: 200px;
+}
+
+.tallerTextData1{
+    grid-area: proyH;
+    font-size: 60px;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+    align-self: center;
+}
+
+.tallerIconData2{
+    grid-area: proyI;
+    object-fit: cover;
+    justify-self: end;
+    align-self: center;
+    font-size: 200px;
+}
+
+.tallerTextData2{
+    grid-area: proyJ;
+    font-size: 60px;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+    align-self: center;
+}
+
+.tallerIconData3{
+    grid-area: proyK;
+    object-fit: cover;
+    justify-self: end;
+    align-self: center;
+    font-size: 200px;
+}
+
+.tallerTextData3{
+    grid-area: proyL;
+    font-size: 60px;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 30px;
+    align-self: center;
+}
+
+.tallerData1text{
+    grid-area: proyM;
+    font-size: 50px;
+    text-align:Left;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: light;
+    padding: 30px;
+}
+
+.tallerData2text{
+    grid-area: proyN;
+    font-size: 50px;
+    text-align:left;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: light;
+    padding: 30px;
+}
+
+.tallerData3text{
+    grid-area: proyO;
+    font-size: 50px;
+    text-align:left;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: light;
+    padding: 30px;
+}

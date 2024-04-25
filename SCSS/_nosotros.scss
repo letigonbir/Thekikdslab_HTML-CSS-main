@@ -1,0 +1,82 @@
+
+.sectionBtarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 100px;
+        }
+
+.sectionBtarjeta{
+    width: 900px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+    }
+
+.sectionBtitle{
+    display:block;
+    padding: 200px 10px 10px 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 100px;
+    font-style: normal;
+    }
+    
+.sectionBim{
+    width: 100%;
+    border-radius: 500px;
+                        }
+
+.sectionBname{
+    font-size: 60px;
+    text-align:center;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+        }
+                                
+.sectionBtext{
+    font-size: 50px;
+    text-align:center;
+    font-weight: light;
+    font-family: "Roboto";
+    font-style: normal;
+        }
+
+.sectionBconclusion{
+    display:block;
+    padding: 200px 10px 10px 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 70px;
+    font-style: normal;
+        }
+        
+.sectionAp{
+    display: flex;
+    position: relative;
+    justify-content: center;
+            }
+
+.sectionApText{
+    display: flex;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-style: normal;
+                     }
+
+.sectionAlogo{
+    width: 1000px;
+    display: block;
+    margin: auto;
+           }

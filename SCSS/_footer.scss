@@ -1,0 +1,56 @@
+      
+.footer1{
+    background-color:  $backgroundColor;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top: 00px none white;
+    margin-top: 500px;
+    }
+
+    .footer1Image {
+        width: 500px;
+        display: block;
+        margin: auto;   
+        }
+
+    .footer1Text1{
+        font-size: 60px;
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: bold;
+        display: block;
+        padding: 10px;
+       }
+
+    .footer1Text2{
+        font-size: 50px;
+        text-align: center;
+        font-weight: normal;
+        font-family: "Roboto";
+        font-style: normal;
+        display: block;
+        padding: 20px;
+           }
+
+.footer2{
+    background-color:white;
+    display: block;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+            }
+
+    .footer2Image {
+        width: 100px;
+        display: block;
+        }
+
+.footer2Text1{
+    display: block;
+        font-size: 40px;
+        text-align:left;
+        font-family: "Roboto";
+        font-style: normal;
+               }
