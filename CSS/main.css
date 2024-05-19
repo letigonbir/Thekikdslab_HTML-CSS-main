@@ -202,6 +202,24 @@
   font-style: normal;
 }
 
+.carrousel {
+  background-color: rgba(128, 128, 128, 0.411);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.carrousel img {
+  height: 600px;
+  width: auto;
+  object-fit: cover;
+  margin: 20px;
+  transition: 0.5s;
+}
+.carrousel img:hover {
+  transform: scale(2);
+}
+
 #exploracion {
   font-size: 50px;
   text-align: left;
