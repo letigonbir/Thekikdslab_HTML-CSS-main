@@ -1,5 +1,207 @@
-@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.tituloHeader p {
+  font-size: 70px;
+  text-align: left;
+  line-height: 10px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 100px;
+}
+
+.tituloInicio {
+  font-size: 80px;
+}
+
+.headerImage {
+  width: 1000px;
+  display: flex;
+  padding-top: 200px;
+}
+
+.navegador {
+  background-color: rgb(86, 106, 221);
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  top: 0%;
+  position: fixed;
+  font-size: 55px;
+  font-weight: bold;
+  gap: 10px;
+  z-index: 1;
+}
+
+.iconoMenu {
+  display: none;
+}
+
+.navegadorLinks {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  padding: 20px;
+}
+
+.navegadorLink a {
+  display: block;
+  padding: 20px 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navegadorSectionAlinks {
+  display: flex;
+  gap: 100px;
+  padding: 200px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.navegadorSectionAlink {
+  background-color: rgb(86, 106, 221);
+  display: flex;
+  width: 800px;
+  height: 200px;
+  gap: 100px;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegadorSectionAlink a {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.mainImage {
+  width: 100%;
+  display: block;
+  display: flex;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.tituloMainImage {
+  font-size: 200px;
+  text-align: right;
+  width: 30% vw;
+  font-weight: bold;
+  color: rgb(233, 34, 20);
+  opacity: 0.8;
+  display: block;
+  padding: 100px;
+  position: absolute;
+  top: 20%;
+  right: 20px;
+}
+
+.mainText {
+  font-size: 50px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.sectionAtextPar1 {
+  width: 100%;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-style: bold;
+  color: rgb(86, 106, 221);
+  padding: 100px 0px 25px 0px;
+}
+
+.sectionAtextPar2 {
+  width: 100%;
+  font-size: 65px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
+  padding: 100px 0px 25px 0px;
+}
+
+.footer1 {
+  background-color: rgba(128, 128, 128, 0.411);
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-top: 0px none white;
+  margin-top: 500px;
+}
+
+.footer1Image {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.footer1Text1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+}
+
+.footer1Text2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Roboto";
+  font-style: normal;
+  display: block;
+  padding: 20px;
+}
+
+.footer2 {
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+}
+
+.footer2Image {
+  width: 100px;
+  display: block;
+}
+
+.footer2Text1 {
+  display: block;
+  font-size: 40px;
+  text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
 #exploracion {
   font-size: 50px;
   text-align: left;
@@ -77,66 +279,10 @@
   font-style: normal;
   padding: 50px;
   margin-bottom: 0px;
-  border: 10px solid rgb(86, 106, 221);
+  border: 10px solid color rgb(86, 106, 221);
   border-radius: 50px;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.footer1 {
-  background-color: rgba(128, 128, 128, 0.411);
-  display: block;
-  width: 100%;
-  height: auto;
-  padding: 20px;
-  border-top: 0px none white;
-  margin-top: 500px;
-}
-
-.footer1Image {
-  width: 500px;
-  display: block;
-  margin: auto;
-}
-
-.footer1Text1 {
-  font-size: 60px;
-  text-align: center;
-  font-family: "Roboto";
-  font-weight: bold;
-  display: block;
-  padding: 10px;
-}
-
-.footer1Text2 {
-  font-size: 50px;
-  text-align: center;
-  font-weight: normal;
-  font-family: "Roboto";
-  font-style: normal;
-  display: block;
-  padding: 20px;
-}
-
-.footer2 {
-  background-color: white;
-  display: block;
-  width: 100%;
-  height: 250px;
-  padding: 20px;
-}
-
-.footer2Image {
-  width: 100px;
-  display: block;
-}
-
-.footer2Text1 {
-  display: block;
-  font-size: 40px;
-  text-align: left;
-  font-family: "Roboto";
-  font-style: normal;
 }
 
 .sectionCform {
@@ -238,32 +384,6 @@
   width: 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto";
-}
-
-.tituloHeader p {
-  font-size: 70px;
-  text-align: left;
-  line-height: 10px;
-  font-weight: bold;
-  display: block;
-  padding-bottom: 100px;
-}
-
-.tituloInicio {
-  font-size: 80px;
-}
-
-.headerImage {
-  width: 1000px;
-  display: flex;
-  padding-top: 200px;
-}
-
 .sectionDlocation {
   display: flex;
   padding: 30px;
@@ -293,240 +413,6 @@
   font-family: "Roboto";
   font-style: normal;
   padding: 30px;
-}
-
-.mainImage {
-  width: 100%;
-  display: block;
-  display: flex;
-  position: relative;
-  margin-bottom: 60px;
-  margin-top: 60px;
-}
-
-.tituloMainImage {
-  font-size: 200px;
-  text-align: right;
-  width: 30% vw;
-  font-weight: bold;
-  color: rgb(233, 34, 20);
-  opacity: 0.8;
-  display: block;
-  padding: 100px;
-  position: absolute;
-  top: 20%;
-  right: 20px;
-}
-
-.mainText {
-  font-size: 50px;
-  text-align: center;
-  font-weight: normal;
-  font-family: "Roboto";
-  font-style: normal;
-}
-
-@media (max-width: 2200px) {
-  .navegadorLinks {
-    position: absolute;
-    margin-top: 300px;
-    top: 0;
-    right: 0;
-    flex-direction: column;
-    gap: 30px;
-    right: -100vw;
-    transition: right 0.1s ease;
-    transition-delay: 2s;
-  }
-  .navegadorLink a {
-    display: block;
-    padding: 20px 5px;
-    color: white;
-    background-color: rgb(86, 106, 221);
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: end;
-  }
-  .iconoMenu {
-    display: block;
-    position: absolute;
-    color: white;
-    margin: 20px;
-    font-size: 80px;
-  }
-  .iconoMenu:hover ~ .navegadorLinks {
-    right: 0vw;
-  }
-  .tituloMainImage {
-    font-size: 160px;
-    padding: 10px;
-  }
-}
-@media (max-width: 1700px) {
-  .tituloMainImage {
-    font-size: 130px;
-    padding: 10px;
-  }
-  .tituloHeader p {
-    font-size: 70px;
-  }
-  .headerImage {
-    width: 800px;
-  }
-  .sectionAtext {
-    font-size: 60px;
-    line-height: 60px;
-    padding: 10px;
-  }
-  .fasesText {
-    font-size: 60px;
-    line-height: 60px;
-    padding: 10px;
-    margin: 10px;
-  }
-  .fasesTitle {
-    font-size: 60px;
-    line-height: 60px;
-    padding: 10px;
-    text-align: center;
-  }
-  .sectionBtitle {
-    font-size: 60px;
-    line-height: 60px;
-    padding: 10px;
-  }
-}
-@media (max-width: 1300px) {
-  .tituloMainImage {
-    font-size: 100px;
-    padding: 10px;
-  }
-}
-@media (max-width: 1000px) {
-  .tituloMainImage {
-    font-size: 60px;
-    padding: 10px;
-  }
-  .headerImage {
-    width: 90%;
-    margin: auto;
-  }
-  .tituloHeader p {
-    font-size: 60px;
-    text-align: center;
-    line-height: 60px;
-    padding: 30px;
-  }
-  .tarjetas {
-    padding: 10px;
-  }
-  .tarjeta {
-    width: 98%;
-    margin: 10px;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  .tarjetaText {
-    margin-top: 0px;
-  }
-  .tarjetaTitle {
-    font-size: 60px;
-  }
-  .sectionBconclusion {
-    font-size: 60px;
-  }
-  .tarjetasTitulo {
-    font-size: 60px;
-  }
-  .footer2Text1 {
-    text-align: center;
-  }
-  .footer2Image {
-    display: none;
-  }
-}
-@media (max-width: 1000px) and (max-width: 500px) {
-  .tituloHeader p {
-    font-size: 60px;
-  }
-  .tituloMainImage {
-    font-size: 160px;
-    padding: 5px;
-  }
-}
-.navegador {
-  background-color: rgb(86, 106, 221);
-  width: 100%;
-  height: 250px;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  top: 0%;
-  position: fixed;
-  font-size: 55px;
-  font-weight: bold;
-  gap: 10px;
-  z-index: 1;
-}
-
-.iconoMenu {
-  display: none;
-}
-
-.navegadorLinks {
-  display: flex;
-  gap: 100px;
-  list-style: none;
-  font-family: "Roboto";
-  font-style: normal;
-  padding: 20px;
-}
-
-.navegadorLink a {
-  display: block;
-  padding: 20px 5px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.navegadorSectionAlinks {
-  display: flex;
-  gap: 100px;
-  padding: 200px;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.navegadorSectionAlink {
-  background-color: rgb(86, 106, 221);
-  display: flex;
-  width: 800px;
-  height: 200px;
-  gap: 100px;
-  border: 3px solid;
-  border-radius: 20px;
-  padding: 30px;
-  justify-content: center;
-  align-items: center;
-}
-
-.navegadorSectionAlink a {
-  text-align: center;
-  font-family: "Roboto";
-  font-style: normal;
-  list-style: none;
-  text-decoration: none;
-  color: white;
-  font-size: 55px;
-  font-weight: bold;
 }
 
 .sectionBtarjetas {
@@ -705,27 +591,6 @@
   align-items: center;
 }
 
-.sectionAtextPar1 {
-  width: 100%;
-  font-size: 80px;
-  text-align: center;
-  font-weight: bold;
-  font-family: "Roboto";
-  font-style: bold;
-  color: rgb(86, 106, 221);
-  padding: 100px 0px 25px 0px;
-}
-
-.sectionAtextPar2 {
-  width: 100%;
-  font-size: 65px;
-  text-align: center;
-  font-weight: bold;
-  font-family: "Roboto";
-  font-style: normal;
-  padding: 100px 0px 25px 0px;
-}
-
 .taller {
   width: 80%;
   height: auto;
@@ -747,8 +612,7 @@
   width: 100%;
   height: 100%;
   border-radius: 70px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .tallerTitle {
@@ -798,8 +662,7 @@
 
 .tallerIconData1 {
   grid-area: proyG;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   justify-self: end;
   align-self: center;
   font-size: 200px;
@@ -817,8 +680,7 @@
 
 .tallerIconData2 {
   grid-area: proyI;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   justify-self: end;
   align-self: center;
   font-size: 200px;
@@ -836,8 +698,7 @@
 
 .tallerIconData3 {
   grid-area: proyK;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   justify-self: end;
   align-self: center;
   font-size: 200px;
@@ -881,4 +742,138 @@
   font-family: "Roboto";
   font-style: light;
   padding: 30px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (max-width: 2200px) {
+  .navegadorLinks {
+    position: absolute;
+    margin-top: 300px;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 30px;
+    right: -100vw;
+    transition: right 0.1s ease;
+    transition-delay: 2s;
+  }
+  .navegadorLink a {
+    display: block;
+    padding: 20px 5px;
+    color: white;
+    background-color: rgb(86, 106, 221);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: end;
+  }
+  .iconoMenu {
+    display: block;
+    position: absolute;
+    color: white;
+    margin: 20px;
+    font-size: 80px;
+  }
+  .iconoMenu:hover ~ .navegadorLinks {
+    right: 0vw;
+  }
+  .tituloMainImage {
+    font-size: 160px;
+    padding: 10px;
+  }
+}
+@media (max-width: 1700px) {
+  .tituloMainImage {
+    font-size: 130px;
+    padding: 10px;
+  }
+  .tituloHeader p {
+    font-size: 70px;
+  }
+  .headerImage {
+    width: 800px;
+  }
+  .sectionAtext {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px;
+  }
+  .fasesText {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .fasesTitle {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px;
+    text-align: center;
+  }
+  .sectionBtitle {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px;
+  }
+}
+@media (max-width: 1300px) {
+  .tituloMainImage {
+    font-size: 100px;
+    padding: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .tituloMainImage {
+    font-size: 60px;
+    padding: 10px;
+  }
+  .headerImage {
+    width: 90%;
+    margin: auto;
+  }
+  .tituloHeader p {
+    font-size: 60px;
+    text-align: center;
+    line-height: 60px;
+    padding: 30px;
+  }
+  .tarjetas {
+    padding: 10px;
+  }
+  .tarjeta {
+    width: 98%;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .tarjetaText {
+    margin-top: 0px;
+  }
+  .tarjetaTitle {
+    font-size: 60px;
+  }
+  .sectionBconclusion {
+    font-size: 60px;
+  }
+  .tarjetasTitulo {
+    font-size: 60px;
+  }
+  .footer2Text1 {
+    text-align: center;
+  }
+  .footer2Image {
+    display: none;
+  }
+}
+@media (max-width: 1000px) and (max-width: 500px) {
+  .tituloHeader p {
+    font-size: 60px;
+  }
+  .tituloMainImage {
+    font-size: 160px;
+    padding: 5px;
+  }
+}/*# sourceMappingURL=main.css.map */
